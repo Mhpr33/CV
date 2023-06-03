@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page of Mohammadreza Parsafard</title>
+</head>
+<body>
+    
+    <h1>Contact Details :</h1>
+    <p><h4>Email : Mparsafard@yahoo.com</h4></p>
+    <p><h4>Phone : (519)9191188</h4></p>
+    <p><h4>Address : 811 Langlois Ave,Windsor,ON,Canada</h4></p>
+
+    <hr size="5" noshade="0" >
+
+    <h1>Contact Directly To Mohammadreza Parsafard :</h1>
+
+    <form action="mailto:mparsafard@yahoo.com" method="post" enctype="text/plain">
+
+        <label for="Fname">First Name :</label>
+        <input name="Your Name" required id="Fname" type="text"> <br> <br>
+
+        <label for="Lname">Last Name :</label>
+        <input name="Your LastName" required id="Lname" type="text"> <br> <br>
+
+        <label for="Age">Age :</label>
+        <input name="Your Age" required id="Age" type="number" min="0" max="100"> <br> <br>
+
+        <label for="date">Date Of Birth :</label>
+        <input name="Your DOB" required id="date" type="date"> <br> <br>  
+
+        <label for="email">Email :</label>
+        <input name="Your Email" required id="email" type="email"> <br> <br>
+
+        <label for="color">Favorite Color :</label>
+        <input name="Your Fav Color" id="color" type="color"> <br> <br>
+
+        <!--RADIO-->
+        <label for="">Gender:</label>
+        <label for="Male">Male</label>
+        <input required type="radio" name="Gender" id="Male">
+        <label for="Female">Female</label>
+        <input required type="radio" name="Gender" id="Female">
+        <label for="Others">Others</label>
+        <input required type="radio" name="Gender" id="Others"> <br> <br>
+        <!--RADIO END-->
+        <label for="">Education Level :</label>
+        <select required name="Education Level" id="">
+            <option value="">Select Item</option>
+            <option value="">College Diploma</option>
+            <option value="">Bachelor degree</option>
+            <option value="">Masters Degree</option>
+            <option value="">PHD</option> 
+        </select> <br> <br>
+
+        <label for="">Your Message : </label>
+        <textarea name="Your Message" required name="" id="" cols="30" rows="10"></textarea> <br> <br>
+
+        <label for="PIC">3*4 Picture :</label>
+        <input name="Your Picture " required id="PIC" type="file" accept="image/jpeg,image/png" > <br> <br>
+
+        <label for="">Priority of Your Contact :</label>
+        <input name="The Priority of Your Message" type="range" min="0" max="5"> <br> <br>
+
+        <input required type="checkbox">
+        <label for="">I Read and Agree with <a target="_blank" title="Terms and Conditions" href="Terms.html">Terms and Conditions</a> of sending message to you</label> <br> <br>
+                                            
+
+    
+        <input type="submit" value="Send"> <br> <br>
+
+        <input type="reset" value="Reset Everyything"> <br> <br>
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+   
+</body>
+</html>
